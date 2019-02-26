@@ -1,0 +1,51 @@
+body {
+    font-family: 'Calibri';
+    background-color: rgb(101, 180, 255);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    h1 {
+        margin: 0;
+        margin-top: auto;
+        text-align: center;
+    }
+}
+
+main {
+    background-color: rgb(241, 241, 241);
+    border-radius: 3%;
+    box-shadow: 8px 8px 5px gray;
+    padding: 50px 0;
+    .img{
+        margin: 0 auto;
+        img.photo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+            max-width:20%;
+            max-height:20%;
+        }
+    }
+    .skills{
+        ul.skills-list li {
+            display: flex;
+            justify-content: space-between;
+            .skill{
+                align-self: flex-start;
+            }
+        }
+    }
+}
