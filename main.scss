@@ -12,11 +12,6 @@ body {
 }
 
 .welcome {
-  position:absolute; /*it can be fixed too*/
-  left:0;
-  right:0;
-  top: 30vh;
-  bottom:0;
   margin:auto;
 }
 
@@ -40,14 +35,12 @@ body {
   font-weight: bold;
 }
 
-.welcome__arrow-img {
-  position: absolute;
-  right: 25%;
+.welcome__resume-container {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .welcome__resume-icon {
-  position: absolute;
-  right: 50%;
   margin-top: 50px;
 }
 
@@ -58,21 +51,20 @@ body {
 
 .bio {
   margin: 20px auto;
-}
-
-.bio__content {
-  max-width: content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .bio__photo {
-  display: block;
-  float: left;
   border-radius: 20px;
+  width: 150px;
 }
 
 .bio__list {
-  padding-top: 75px;
-  padding-left: 200px;
+  margin: 20px;
   font-size: 18px;
 }
 
